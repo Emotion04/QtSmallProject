@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>caomei.ico</file>
+        <file>xiangjiao.ico</file>
+        <file>xigua.ico</file>
+    </qresource>
+</RCC>
