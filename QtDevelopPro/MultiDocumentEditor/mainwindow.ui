@@ -26,7 +26,7 @@
      <x>0</x>
      <y>0</y>
      <width>579</width>
-     <height>17</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_F">
@@ -71,6 +71,7 @@
     </property>
     <addaction name="actionAbout"/>
     <addaction name="actionAboutQt"/>
+    <addaction name="actioncontact_ZJH_for_help"/>
    </widget>
    <addaction name="menu_F"/>
    <addaction name="menu_E"/>
@@ -109,6 +110,12 @@
    <property name="text">
     <string>new file(&amp;N)</string>
    </property>
+   <property name="iconText">
+    <string>新建(N)</string>
+   </property>
+   <property name="toolTip">
+    <string>新建(N)</string>
+   </property>
    <property name="shortcut">
     <string>Ctrl+N</string>
    </property>
@@ -120,6 +127,12 @@
    </property>
    <property name="text">
     <string>open file(&amp;D)</string>
+   </property>
+   <property name="iconText">
+    <string>打开文档(D)</string>
+   </property>
+   <property name="toolTip">
+    <string>打开文档(D)</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+O</string>
@@ -133,6 +146,12 @@
    <property name="text">
     <string>save(&amp;S)</string>
    </property>
+   <property name="iconText">
+    <string>保存(S)</string>
+   </property>
+   <property name="toolTip">
+    <string>保存(S)</string>
+   </property>
    <property name="shortcut">
     <string>Ctrl+S</string>
    </property>
@@ -144,6 +163,12 @@
    </property>
    <property name="text">
     <string>saveAs(&amp;A)</string>
+   </property>
+   <property name="iconText">
+    <string>另存为(A)</string>
+   </property>
+   <property name="toolTip">
+    <string>另存为(A)</string>
    </property>
   </action>
   <action name="actionExit">
@@ -187,6 +212,12 @@
    <property name="text">
     <string>Cut(&amp;T)</string>
    </property>
+   <property name="iconText">
+    <string>剪切(T)</string>
+   </property>
+   <property name="toolTip">
+    <string>剪切(T)</string>
+   </property>
    <property name="shortcut">
     <string>Ctrl+X</string>
    </property>
@@ -199,6 +230,12 @@
    <property name="text">
     <string>Copy(&amp;C)</string>
    </property>
+   <property name="iconText">
+    <string>复制(C)</string>
+   </property>
+   <property name="toolTip">
+    <string>复制(C)</string>
+   </property>
    <property name="shortcut">
     <string>Ctrl+C</string>
    </property>
@@ -210,6 +247,12 @@
    </property>
    <property name="text">
     <string>Paste(&amp;P)</string>
+   </property>
+   <property name="iconText">
+    <string>粘贴(P)</string>
+   </property>
+   <property name="toolTip">
+    <string>粘贴(P)</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+V</string>
@@ -243,6 +286,12 @@
    <property name="text">
     <string>Next(&amp;X)</string>
    </property>
+   <property name="iconText">
+    <string>下一个(X)</string>
+   </property>
+   <property name="toolTip">
+    <string>下一个(X)</string>
+   </property>
    <property name="shortcut">
     <string>Ctrl+Tab</string>
    </property>
@@ -253,7 +302,10 @@
      <normaloff>:/images/previous.png</normaloff>:/images/previous.png</iconset>
    </property>
    <property name="text">
-    <string>Previous(&amp;V)</string>
+    <string>上一个(V)</string>
+   </property>
+   <property name="iconText">
+    <string>上一个(V)</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Shift+Backspace</string>
@@ -271,6 +323,11 @@
   <action name="actionAboutQt">
    <property name="text">
     <string>aboutQt(&amp;Q)</string>
+   </property>
+  </action>
+  <action name="actioncontact_ZJH_for_help">
+   <property name="text">
+    <string>contact ZJH for help</string>
    </property>
   </action>
  </widget>
